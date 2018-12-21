@@ -1,0 +1,43 @@
+REACTIVE:
+
+https://github.com/lankydan/spring-boot-webflux/blob/master/src/main/java/com/lankydanblog/tutorial/person/web/PersonHandler.java
+https://spring.io/guides/gs/reactive-rest-service/
+
+https://www.e4developer.com/2018/04/14/webflux-and-servicing-client-requests-how-does-it-work/
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-webclient.html
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-webclient.html
+https://github.com/spring-projects/spring-framework/wiki/HTTP-2-support
+
+https://stackoverflow.com/questions/50365877/switch-spring-webflux-microservice-to-http-2-netty
+https://blog.novatec-gmbh.de/spring-boot-applications-tls-http2/
+
+https://github.com/making/demo-http2/tree/master/src/main
+https://stackoverflow.com/questions/48221194/how-to-configure-in-spring-boot-2-w-webflux-two-ports-for-http-and-https
+
+http://rtb-useast.keenkale.com/rtb?zone=62345
+
+Account Login: http://login.keenkale.com/
+Account Login: Tappx
+Account password: fred1234
+Stats Password: N6HlIq
+
+End points for mobile web:
+Rtb url:
+http://rtb-useast.keenkale.com/rtb?zone=55764(doesn't support https)
+http://rtb-uswest.keenkale.com/rtb?zone=55764(doesn't support https)
+http://rtb-eu.keenkale.com/rtb?zone=55764(doesn't support https)
+
+We can start with EN speaking geos all standard IAB sizes both IA+MW.
+We have 2.4 support + servers in EU+US(W+E)
+
+Time zone is UTC & reporting is API/logins both supported.
+
+{"id":"a9ba9d899dc2eddcc389f90634e8382e","seatbid":[{"bid":[{"id":"ytyjOoPZW8U_0","impid":"527d8051d92fd6f7971a909989c7718f","price":0.15000005424869656,"adid":"b91755","adm":"\n\n","cid":"c59223","crid":"b91755","h":250,"w":300}],"seat":"a79263"}],"cur":"USD"} 
+
+http://rtb-useast.admanmedia.com/rtb?zone=62853(supports https) 
+
+API:
+http://login.admanmedia.com/publisher/svc?action=outcsv&login=tappx&password=tAHMDc&channel=ZoneReports&dim=date&f.zone=62853&f.date=2018-10-01_2018-10-15&appType=CPM
+
+oRTB version 2.4

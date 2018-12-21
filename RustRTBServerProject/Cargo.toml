@@ -1,0 +1,13 @@
+[package]
+name = "RustRTBServerProject"
+version = "0.1.0"
+authors = ["jeag2002 <jeag2002@gmail.com>"]
+
+[dependencies]
+rocket = { git = "https://github.com/SergioBenitez/Rocket" }
+rocket_codegen = { git = "https://github.com/SergioBenitez/Rocket" }
+#rocket = "0.3.9"
+#rocket_codegen = "0.3.9"
+serde_derive = "0.9"
+serde_json = "1.0"
+reqwest = "0.9.5"

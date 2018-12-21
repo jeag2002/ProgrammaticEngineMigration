@@ -1,0 +1,7 @@
+https://github.com/Microsoft/WSL/issues/3141
+https://vanwilgenburg.wordpress.com/2016/04/01/spring-boot-http2/
+
+https://github.com/square/okio
+https://github.com/making/demo-http2
+
+c:\workspaces\curls\curl --http2 -k -v https://localhost:8443/rtbdispatcher/rtb/271

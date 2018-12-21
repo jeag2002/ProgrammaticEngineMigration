@@ -1,0 +1,8 @@
+server.port=8084
+server.context-path=/rtbdispatcher/rtb/**
+server.compression.enabled=true
+server.compression.mime-types=application/json
+server.compression.min-response-size=1024
+server.http2.enabled=true
+spring.resources.cache.cachecontrol.max-age=120
+spring.resources.cache.cachecontrol.must-revalidate=true
