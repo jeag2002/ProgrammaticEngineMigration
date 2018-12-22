@@ -1,0 +1,5 @@
+append_projloc_gopath=true
+com.googlecode.goclipse.gopath=\:C\:\\Users\\jeag2\\go;C\:\\Go
+com.googlecode.goclipse.goroot=C\:\\Go
+eclipse.preferences.version=1
+toolchain_prefs.use_project_settings=true

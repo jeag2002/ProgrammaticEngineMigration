@@ -16,6 +16,7 @@ serde_derive 0.9
 serde_json 1.0
 reqwest 0.9.5
 
+go 1.11.2 windows/amd64
 
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
@@ -26,6 +27,7 @@ RTBRestProjectReactiveServer => Spring Web Flux Rest Reactive Server
 RTBRestProjectServerHTTP2 => Spring boot MVC + http/2
 
 RustRTBServerProject => Rust Rest Server
+GoRTBServerProject => Go/Goland Rest Server
 
 RTBRestProjectClient => Spring boot client
 
