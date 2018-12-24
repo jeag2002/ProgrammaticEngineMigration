@@ -18,6 +18,9 @@ reqwest 0.9.5
 
 go 1.11.2 windows/amd64
 
+python 2.7
+flasks 1.0.2
+
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
@@ -28,6 +31,8 @@ RTBRestProjectServerHTTP2 => Spring boot MVC + http/2
 
 RustRTBServerProject => Rust Rest Server
 GoRTBServerProject => Go/Goland Rest Server
+PythonRTBServerProject => Python Rest Server
+
 
 RTBRestProjectClient => Spring boot client
 
