@@ -21,6 +21,10 @@ go 1.11.2 windows/amd64
 python 2.7
 flasks 1.0.2
 
+node js 6.4.1
+fastify 
+node-rest-client
+
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
