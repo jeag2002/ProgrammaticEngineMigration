@@ -36,6 +36,7 @@ RTBRestProjectServerHTTP2 => Spring boot MVC + http/2
 RustRTBServerProject => Rust Rest Server
 GoRTBServerProject => Go/Goland Rest Server
 PythonRTBServerProject => Python Rest Server
+JSRTBServerProject => JS Rest Server
 
 
 RTBRestProjectClient => Spring boot client
