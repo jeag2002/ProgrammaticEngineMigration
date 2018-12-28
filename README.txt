@@ -17,6 +17,7 @@ serde_json 1.0
 reqwest 0.9.5
 
 go 1.11.2 windows/amd64
+mux
 
 python 2.7
 flasks 1.0.2
@@ -25,6 +26,8 @@ node js 6.4.1
 fastify 
 node-rest-client
 
+scala
+play 2.6.x
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
@@ -37,6 +40,7 @@ RustRTBServerProject => Rust Rest Server
 GoRTBServerProject => Go/Goland Rest Server
 PythonRTBServerProject => Python Rest Server
 JSRTBServerProject => JS Rest Server
+ScalaRTBServerProject => Scala Rest Server
 
 
 RTBRestProjectClient => Spring boot client
