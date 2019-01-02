@@ -29,6 +29,11 @@ node-rest-client
 scala
 play 2.6.x
 
+erlang
+
+otp_win32_17.4
+yaws-1.99-windows
+
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
 
@@ -41,6 +46,7 @@ GoRTBServerProject => Go/Goland Rest Server
 PythonRTBServerProject => Python Rest Server
 JSRTBServerProject => JS Rest Server
 ScalaRTBServerProject => Scala Rest Server
+ErlangRTBServerProject => Erlang Rest Server
 
 
 RTBRestProjectClient => Spring boot client

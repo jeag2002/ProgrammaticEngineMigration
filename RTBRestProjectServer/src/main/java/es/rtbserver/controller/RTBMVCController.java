@@ -28,7 +28,7 @@ public class RTBMVCController {
 	public ResponseEntity<String> processNotCacheRTB(@PathVariable("id") int id){
 		logger.info("[RTBDISPATCHER] -- RTB/(" + id + ") -- INI");
 		long start_time = System.currentTimeMillis();
-		String response = service.processService(id);	
+		String response = service.processNotCacheService(id);
 		long stop_time = System.currentTimeMillis();
 		stop_time = stop_time - start_time;
 		logger.info("[RTBDISPATCHER] -- RTB/(" + id + ") time (" + stop_time + ") ms -- END");
