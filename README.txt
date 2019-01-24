@@ -34,6 +34,8 @@ erlang
 otp_win32_17.4
 yaws-1.99-windows
 
+haskell
+
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
 
@@ -47,7 +49,7 @@ PythonRTBServerProject => Python Rest Server
 JSRTBServerProject => JS Rest Server
 ScalaRTBServerProject => Scala Rest Server
 ErlangRTBServerProject => Erlang Rest Server
-
+resttesta => Haskell Rest Server
 
 RTBRestProjectClient => Spring boot client
 
