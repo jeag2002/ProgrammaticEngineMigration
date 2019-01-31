@@ -1,0 +1,11 @@
+C:\workspaces\RTBServerCSharp\bin\Debug\netcoreapp2.1\workC#.deps.json
+C:\workspaces\RTBServerCSharp\bin\Debug\netcoreapp2.1\workC#.runtimeconfig.json
+C:\workspaces\RTBServerCSharp\bin\Debug\netcoreapp2.1\workC#.runtimeconfig.dev.json
+C:\workspaces\RTBServerCSharp\bin\Debug\netcoreapp2.1\workC#.dll
+C:\workspaces\RTBServerCSharp\bin\Debug\netcoreapp2.1\workC#.pdb
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.csprojAssemblyReference.cache
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.csproj.CoreCompileInputs.cache
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.AssemblyInfoInputs.cache
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.AssemblyInfo.cs
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.dll
+C:\workspaces\RTBServerCSharp\obj\Debug\netcoreapp2.1\workC#.pdb
