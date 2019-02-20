@@ -92,5 +92,7 @@ RTBServerCSharp => CSharp Rest Server
 RubyRTBServerProject => Ruby Rest Server
 
 RTBRestProjectClient => Spring boot client
-
- 
+RustRTBClientProject => Concurrent Rust client
+GoRTBClientProject => Concurrent-Corroutine Goland client
+PythonRTBClientProject => Concurrent Python client
+JSRTBClientProject => Concurrent JS client
