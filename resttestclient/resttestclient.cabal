@@ -1,0 +1,44 @@
+name:                resttestclient
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/resttestclient#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2019 Author name here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable resttestclient
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7,
+                       HTTP,
+                       random >= 1.1,
+                       text >= 1.2.3.1,
+                       bytestring >= 0.10.8.2,
+                       utf8-string >= 1.0.1.1,
+                       lens >= 4.17,
+                       scotty >= 0.11.2,
+                       wai-middleware-static >= 0.8.2,
+                       mtl >= 2.2.2,
+                       transformers >= 0.5.5.0,
+                       containers >= 0.6.0.1,
+                       safecopy >= 0.9.4.3,
+                       http-types >= 0.12.2,
+                       haskeline >=0.7.5.0,
+                       text >= 1.2.3.1,
+                       http-client >= 0.5.14,
+                       http-client-tls >= 0.3.5.3,
+                       http-conduit >= 2.3.4,
+                       http-types >= 0.12.2,
+                       wai >= 3.2.1.2,
+                       warp >= 3.2.25,
+                       data-default >= 0.7.1.1,
+                       aeson >= 1.4.2.0,
+                       string-conversions >= 0.4.0.1

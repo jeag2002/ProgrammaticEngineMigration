@@ -97,3 +97,4 @@ GoRTBClientProject => Concurrent-Corroutine Goland client
 PythonRTBClientProject => Concurrent Python client
 JSRTBClientProject => Concurrent JS client
 ScalaRTBProjectClient => Concurrent Scala client
+resttestclient => Concurrent Haskell client
