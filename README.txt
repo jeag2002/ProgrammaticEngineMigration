@@ -100,3 +100,4 @@ ScalaRTBProjectClient => Concurrent Scala client
 resttestclient => Concurrent Haskell client
 RubyRTBClientProject => Concurrent Ruby client
 RTBClientCSharp => Concurrent CSharp client
+ErlangRTBClientProject => Concurrent Erlang Client

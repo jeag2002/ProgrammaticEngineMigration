@@ -1,0 +1,3 @@
+https://github.com/dgud/wings/blob/master/BUILD.win32
+https://erlide.org/articles/eclipse/140_Tutorial-Quick-Start.html
+https://stackoverflow.com/questions/16435991/beginners-erlang-hello-world
