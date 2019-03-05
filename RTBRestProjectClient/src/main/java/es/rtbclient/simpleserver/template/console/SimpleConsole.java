@@ -13,7 +13,7 @@ public class SimpleConsole implements ConsoleTemplate{
 	
 	public static final String DEFAULT_URL = "http://localhost:8082/rtbdispatcher/rtb/271";
 	
-	private String URL;
+	protected String URL;
 	
 	public SimpleConsole() {
 		URL = DEFAULT_URL;

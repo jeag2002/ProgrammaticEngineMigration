@@ -91,6 +91,8 @@ resttesta => Haskell Rest Server
 RTBServerCSharp => CSharp Rest Server
 RubyRTBServerProject => Ruby Rest Server
 
+BrainfuckUserAgentServer => BrainfuckUserAgentServer
+
 RTBRestProjectClient => Spring boot client
 RustRTBClientProject => Concurrent Rust client
 GoRTBClientProject => Concurrent-Corroutine Goland client
@@ -101,3 +103,4 @@ resttestclient => Concurrent Haskell client
 RubyRTBClientProject => Concurrent Ruby client
 RTBClientCSharp => Concurrent CSharp client
 ErlangRTBClientProject => Concurrent Erlang Client
+
