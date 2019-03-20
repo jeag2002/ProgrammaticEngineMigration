@@ -37,6 +37,7 @@ public class SimpleConsoleAsync implements ConsoleTemplate {
 	@Override
 	public String processCall() throws Exception{
 		String responseStr = "";
+		String responseStatus = "";
 		
 		AsyncRestTemplate asycTemp = new AsyncRestTemplate();
 		HttpMethod method = HttpMethod.GET;
@@ -49,6 +50,7 @@ public class SimpleConsoleAsync implements ConsoleTemplate {
 			//waits for the result
 			ResponseEntity<String> entity = future.get();
 			//prints body source code for the given URL
+			responseStatus = String.valueOf(entity.getStatusCodeValue());
 			responseStr = entity.getBody();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -56,7 +58,7 @@ public class SimpleConsoleAsync implements ConsoleTemplate {
 			e.printStackTrace();
 		}
 		
-		return responseStr;
+		return responseStatus + "#" + responseStr;
 	}
 	
 	

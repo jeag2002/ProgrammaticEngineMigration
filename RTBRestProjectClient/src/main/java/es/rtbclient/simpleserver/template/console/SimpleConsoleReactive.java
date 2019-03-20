@@ -26,6 +26,7 @@ public class SimpleConsoleReactive implements ConsoleTemplate {
 	@Override
 	public String processCall() throws Exception {
 		String result = "";
+		String status = "-";
 		WebClient webClient = WebClient.create(URL);
 		/*
 		 webClient.get().retrieve().bodyToMono(String.class).subscribe(SimpleConsoleReactive::handleResponse);
@@ -33,7 +34,7 @@ public class SimpleConsoleReactive implements ConsoleTemplate {
 		  System.out.println("Data");
 		 */
 		result = webClient.get().retrieve().bodyToMono(String.class).block();
-		return result;
+		return status+"#"+result;
 	}
 	
 	private static void handleResponse(String s) {

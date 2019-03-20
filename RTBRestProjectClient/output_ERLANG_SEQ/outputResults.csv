@@ -1,0 +1,80 @@
+2019-03-20 21:34:18;SimpleConsoleErlang;0;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;780
+2019-03-20 21:34:19;SimpleConsoleErlang;1;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;113
+2019-03-20 21:34:20;SimpleConsoleErlang;2;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;108
+2019-03-20 21:34:21;SimpleConsoleErlang;3;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;124
+2019-03-20 21:34:22;SimpleConsoleErlang;4;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;111
+2019-03-20 21:34:23;SimpleConsoleErlang;5;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;112
+2019-03-20 21:34:24;SimpleConsoleErlang;6;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;117
+2019-03-20 21:34:26;SimpleConsoleErlang;7;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;117
+2019-03-20 21:34:27;SimpleConsoleErlang;8;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;116
+2019-03-20 21:34:28;SimpleConsoleErlang;9;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;109
+2019-03-20 21:34:29;SimpleConsoleErlang;10;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;117
+2019-03-20 21:34:30;SimpleConsoleErlang;11;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;116
+2019-03-20 21:34:31;SimpleConsoleErlang;12;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;111
+2019-03-20 21:34:32;SimpleConsoleErlang;13;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;109
+2019-03-20 21:34:34;SimpleConsoleErlang;14;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;114
+2019-03-20 21:34:35;SimpleConsoleErlang;15;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;118
+2019-03-20 21:34:36;SimpleConsoleErlang;16;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;113
+2019-03-20 21:34:37;SimpleConsoleErlang;17;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;115
+2019-03-20 21:34:38;SimpleConsoleErlang;18;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;113
+2019-03-20 21:34:39;SimpleConsoleErlang;19;0;
+<p>
+<div class="box">
+<pre>Keenkale "{ok,{{\"HTTP/1.1\",204,\"OK\"},\n     [{\"cache-control\",\"no-store\"},\n      {\"connection\",\"keep-alive\"},\n      {\"pragma\",\"no-cache\"},\n      {\"age\",\"0\"},\n      {\"content-length\",\"0\"}],\n     []}}"</pre></div></p>;200;116

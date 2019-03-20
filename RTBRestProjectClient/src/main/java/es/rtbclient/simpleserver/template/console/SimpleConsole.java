@@ -25,11 +25,15 @@ public class SimpleConsole implements ConsoleTemplate{
 	
 	@Override
 	public String processCall() throws Exception{
+		String responseStatus = "";
 		String responseStr = "";
 		RestTemplate restTemplate = new RestTemplate();
 		ResponseEntity<String> out = restTemplate.getForEntity(URL, String.class);
+		
+		responseStatus = String.valueOf(out.getStatusCodeValue());
 		responseStr = out.getBody();
-		return responseStr;
+		
+		return responseStatus + "#" + responseStr;
 	}
 	
 

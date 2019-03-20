@@ -1,0 +1,20 @@
+2019-03-18 23:58:37;SimpleConsoleNoCache;0;0;status : 204 body (<empty>);0;1229
+2019-03-18 23:58:44;SimpleConsoleNoCache;1;0;status : 204 body (<empty>);0;257
+2019-03-18 23:58:50;SimpleConsoleNoCache;2;0;KEENKALE ERROR I/O error on POST request for "http://rtb-useast.keenkale.com/rtb": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out;0;1052
+2019-03-18 23:58:57;SimpleConsoleNoCache;3;0;status : 204 body (<empty>);0;234
+2019-03-18 23:59:04;SimpleConsoleNoCache;4;0;status : 204 body (<empty>);0;321
+2019-03-18 23:59:10;SimpleConsoleNoCache;5;0;status : 204 body (<empty>);0;278
+2019-03-18 23:59:17;SimpleConsoleNoCache;6;0;status : 204 body (<empty>);0;263
+2019-03-18 23:59:23;SimpleConsoleNoCache;7;0;status : 204 body (<empty>);0;260
+2019-03-18 23:59:30;SimpleConsoleNoCache;8;0;status : 204 body (<empty>);0;241
+2019-03-18 23:59:36;SimpleConsoleNoCache;9;0;status : 204 body (<empty>);0;246
+2019-03-18 23:59:43;SimpleConsoleNoCache;10;0;status : 204 body (<empty>);0;244
+2019-03-18 23:59:49;SimpleConsoleNoCache;11;0;status : 204 body (<empty>);0;230
+2019-03-18 23:59:56;SimpleConsoleNoCache;12;0;status : 204 body (<empty>);0;230
+2019-03-19 00:00:02;SimpleConsoleNoCache;13;0;status : 204 body (<empty>);0;246
+2019-03-19 00:00:09;SimpleConsoleNoCache;14;0;status : 204 body (<empty>);0;245
+2019-03-19 00:00:15;SimpleConsoleNoCache;15;0;status : 204 body (<empty>);0;236
+2019-03-19 00:00:22;SimpleConsoleNoCache;16;0;status : 204 body (<empty>);0;300
+2019-03-19 00:00:28;SimpleConsoleNoCache;17;0;status : 204 body (<empty>);0;250
+2019-03-19 00:00:35;SimpleConsoleNoCache;18;0;status : 204 body (<empty>);0;238
+2019-03-19 00:00:41;SimpleConsoleNoCache;19;0;status : 204 body (<empty>);0;240

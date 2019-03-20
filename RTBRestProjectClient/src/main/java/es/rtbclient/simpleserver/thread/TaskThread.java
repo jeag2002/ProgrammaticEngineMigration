@@ -41,7 +41,15 @@ public class TaskThread implements Runnable {
 			ResponseDataBean bean = new ResponseDataBean();
 			bean.setNumCall((int)numCall);
 			bean.setNumIt((int)numIt);
-			bean.setResponse(data);
+			
+			if (data.indexOf("#")!=-1) {
+				String vData[] = data.split("#");
+				bean.setResponseCode(Integer.parseInt(vData[0]));
+				bean.setResponse(vData[1]);
+				
+			}else {
+				bean.setResponse(data);
+			}
 			bean.setConsole(nameConsole);
 			
 			long stopTime = System.currentTimeMillis();

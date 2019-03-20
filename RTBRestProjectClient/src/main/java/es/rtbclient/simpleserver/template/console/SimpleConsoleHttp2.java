@@ -28,15 +28,16 @@ public class SimpleConsoleHttp2 implements ConsoleTemplate {
 	@Override
 	public String processCall() throws Exception {
 		String responseStr = "";
+		String responseStatus = "";
 		
 		System.setProperty("javax.net.ssl.trustStore","C:\\workspaces\\workEclipse\\RTBRestProjectClient\\src\\main\\resources\\sample.jks");
 		System.setProperty("javax.net.ssl.trustStorePassword","secret");
 		RestTemplate http2Template = new RestTemplate(new OkHttp3ClientHttpRequestFactory());
 		ResponseEntity<String> out = http2Template.getForEntity(URL, String.class);
 		responseStr = out.getBody();
+		responseStatus = String.valueOf(out.getStatusCodeValue());
 		
-		
-		return responseStr;
+		return responseStatus + "#" +responseStr;
 	}
 	
 	public static void main(String[] args) throws Exception {

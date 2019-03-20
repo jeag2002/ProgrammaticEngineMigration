@@ -53,7 +53,7 @@ public class SimpleConsoleCSharp extends SimpleConsole {
 		 
 		 
 		responseStr = response.toString();
-		return responseStr;
+		return responseCode +"#"+ responseStr;
 	}
 
 

@@ -1,11 +1,19 @@
 package es.rtbclient.simpleserver.engine; 
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,6 +54,8 @@ public class StatisticsMain {
 	
 	public void run() throws Exception{
 		
+		SimpleDateFormat sDF = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		
 		logger.info("[STATISTICSMAIN] StatisticsMain " + corePoolSize + " " + maxPoolSize + " " + numCall + " " + numIt + " " + timeInSeconds + " " + clientClass +  "");		
 		ConsoleTemplate template = (ConsoleTemplate)Class.forName(clientClass).newInstance();
 		
@@ -65,13 +75,41 @@ public class StatisticsMain {
 		}
 		
 		for (int i=0; i<numIt; i++) {
-			processIteration(clientClass, template,i);
+			//Long startTime = System.currentTimeMillis();
+			Long timeInMillis = processIteration(clientClass, template,i);
+			//Long stopTime = System.currentTimeMillis();
+			
+			String result = sDF.format(new Date()) + ";" + clientClass + ";" + (i+1) + ";" + timeInMillis; 
+			generateStatistics_3(result);
+			
 		}
 		
 	}
 	
 	
-	private void processIteration(String clientClass, ConsoleTemplate template, long numIt) throws Exception{
+	private void generateStatistics_3(String result) {
+		
+		try {
+		
+			FileOutputStream fos = new FileOutputStream(new File("./output/totalThreadIt.csv"),true);
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
+			bw.write(result);
+			bw.newLine();
+			bw.close();
+			fos.close();
+		
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	private Long processIteration(String clientClass, ConsoleTemplate template, long numIt) throws Exception{
 		
 		RejectedExecutionHandlerImpl rejectionHandler = new RejectedExecutionHandlerImpl();
 		
@@ -82,6 +120,8 @@ public class StatisticsMain {
 		Thread outputThread = new Thread(monitor);
 		
 		outputThread.start();
+		
+		Long startTime = System.currentTimeMillis();
 		
 		ThreadFactory threadFactory = Executors.defaultThreadFactory();
 		ThreadPoolExecutor executorPool =
@@ -97,19 +137,27 @@ public class StatisticsMain {
 			executorPool.execute(new TaskThread(template,clientClass,numIt,i,queue));
 		}
 		
-		
+		/*
 		while (executorPool.getTaskCount()!=executorPool.getCompletedTaskCount()){
 		    logger.warn("[EXECUTORPOOL] count="+executorPool.getTaskCount()+","+executorPool.getCompletedTaskCount());
-		    Thread.sleep(5000);
+		    Thread.sleep(1500);
 		}
+		*/
 				
+		
 		executorPool.shutdown();
 		executorPool.awaitTermination(timeInSeconds, TimeUnit.SECONDS);
 		
-		monitor.shutdown();
-		Thread.sleep(1500);
+		
+		Long stopTime = System.currentTimeMillis();
+		
+		
+		//monitor.shutdown();
+		Thread.sleep(1000);
 		monitor.processResults();
 		
+		
+		return stopTime-startTime;
 	}
 	
 	

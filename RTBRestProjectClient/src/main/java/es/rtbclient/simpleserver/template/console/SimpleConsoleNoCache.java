@@ -34,10 +34,12 @@ private final Logger logger = LoggerFactory.getLogger(SimpleConsole.class);
 	@Override
 	public String processCall() throws Exception {
 		String responseStr = "";
+		String responseStatus = "";
 		RestTemplate restTemplate = new RestTemplate();
 		ResponseEntity<String> out = restTemplate.getForEntity(URL, String.class);
 		responseStr = out.getBody();
-		return responseStr;
+		responseStatus = String.valueOf(out.getStatusCodeValue());
+		return responseStatus + "#" + responseStr;
 	}
 
 }
