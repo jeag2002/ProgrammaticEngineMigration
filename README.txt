@@ -72,6 +72,15 @@ rest-client (2.0.2 x64-mingw32)
 json (default: 2.1.0)
 multi_json (1.13.1)
 
+C++
+
+GNU C++ v11
+Boost 1.69.0
+Boost.Asio
+Boost.Beast
+Boost.Ptree
+Boost.Json_Parser
+
 
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
@@ -90,6 +99,8 @@ ErlangRTBServerProject => Erlang Rest Server
 resttesta => Haskell Rest Server
 RTBServerCSharp => CSharp Rest Server
 RubyRTBServerProject => Ruby Rest Server
+BeastRestServer => Boost::Beast GNU C++ Server
+(Simple Server: SEQ time 250 ms; CONC time 2250 ms)
 
 BrainfuckUserAgentServer => BrainfuckUserAgentServer
 
