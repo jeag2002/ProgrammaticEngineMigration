@@ -115,3 +115,9 @@ RubyRTBClientProject => Concurrent Ruby client
 RTBClientCSharp => Concurrent CSharp client
 ErlangRTBClientProject => Concurrent Erlang Client
 
+Other benchmarks
+
+https://blog.binaryspaceship.com/2017/cpp-rest-api-frameworks-benchmark
+https://www.techempower.com/benchmarks/
+https://github.com/mfornos/awesome-microservices
+
