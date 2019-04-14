@@ -36,7 +36,7 @@ yaws-1.99-windows
 
 haskell
 
-The Glorious Glasgow Haskell Compilation System, version 8.6.3
+The Glorious Glasgow Haskell Compilation System, version 8.6.3 Llamas in Pajamas
 task Version 1.9.3, Git revision 40cf7b37526b86d1676da82167ea8758a854953b (6211 commits) x86_64 hpack-0.31.1
 base 4.7
 acid-state 0.14.3
@@ -72,7 +72,7 @@ rest-client (2.0.2 x64-mingw32)
 json (default: 2.1.0)
 multi_json (1.13.1)
 
-C++
+C++ - 1
 
 GNU C++ v11
 Boost 1.69.0
@@ -81,6 +81,10 @@ Boost.Beast
 Boost.Ptree
 Boost.Json_Parser
 
+C++ - 2
+
+Visual Studio v 15 2017
+RestBed Milestone 4.5
 
 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
@@ -100,6 +104,8 @@ resttesta => Haskell Rest Server
 RTBServerCSharp => CSharp Rest Server
 RubyRTBServerProject => Ruby Rest Server
 BeastRestServer => Boost::Beast GNU C++ Server
+(Simple Server: SEQ time 250 ms; CONC time 2250 ms)
+RestBedServer => RestBed Visual Studio C++ Server 
 (Simple Server: SEQ time 250 ms; CONC time 2250 ms)
 
 BrainfuckUserAgentServer => BrainfuckUserAgentServer
