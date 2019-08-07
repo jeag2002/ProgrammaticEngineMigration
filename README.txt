@@ -11,10 +11,13 @@ okhttp 3.1.0
 okhttp okio 2.1.0
 
 rust 1.33.0-nightly (release 2018-12-20)
-rocket 0.4.0
+rocket 0.4.0 -> 0.4.2
 serde_derive 0.9
 serde_json 1.0
 reqwest 0.9.5
+
+(New version)
+actix-web 1.0.5
 
 go 1.11.2 windows/amd64
 mux
@@ -107,6 +110,9 @@ BeastRestServer => Boost::Beast GNU C++ Server
 (Simple Server: SEQ time 250 ms; CONC time 2250 ms)
 RestBedServer => RestBed Visual Studio C++ Server 
 (Simple Server: SEQ time 250 ms; CONC time 2250 ms)
+
+RustRTBActicServerProject => Rust Rest Server with Actic Library
+
 
 BrainfuckUserAgentServer => BrainfuckUserAgentServer
 

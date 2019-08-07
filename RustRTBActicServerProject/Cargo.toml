@@ -1,14 +1,14 @@
 [package]
-name = "RustRTBServerProject"
+name = "RustRTBActicServerProject"
 version = "0.1.0"
 authors = ["jeag2002 <jeag2002@gmail.com>"]
 
 [dependencies]
 #rocket = { git = "https://github.com/SergioBenitez/Rocket" }
 #rocket_codegen = { git = "https://github.com/SergioBenitez/Rocket" }
-#remember compiler with the last nightly version. rustup version nightly
-rocket = "0.4.2"
-rocket_codegen = "0.4.2"
+#rocket = "0.4.2"
+#rocket_codegen = "0.4.2"
+actix-web = "1.0.5"
 serde_derive = "0.9"
 serde_json = "1.0"
 reqwest = "0.9.5"
