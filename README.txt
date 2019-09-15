@@ -89,7 +89,13 @@ C++ - 2
 Visual Studio v 15 2017
 RestBed Milestone 4.5
 
+GraalVM + Micronaut
 
+Microsoft SDK Windows 7.1
+GraalVM 19.2.0.1
+Micronaut 1.2.1
+
+ 
 Test projects evaluating new technologies/programming languages that can substitute the current programmatic engine based in
 PHP
 
