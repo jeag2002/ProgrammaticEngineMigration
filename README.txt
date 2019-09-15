@@ -112,7 +112,7 @@ RestBedServer => RestBed Visual Studio C++ Server
 (Simple Server: SEQ time 250 ms; CONC time 2250 ms)
 
 RustRTBActicServerProject => Rust Rest Server with Actic Library
-
+graal => Micronaut+GraalVM Rest Server
 
 BrainfuckUserAgentServer => BrainfuckUserAgentServer
 
@@ -135,4 +135,5 @@ https://github.com/mfornos/awesome-microservices
 
 Improvements:
 RUST: (from Rocket to Actix) https://nbsoftsolutions.com/blog/migrating-to-actix-web-from-rocket-for-stability
+JAVA: (micronaut + graalvm)
 
